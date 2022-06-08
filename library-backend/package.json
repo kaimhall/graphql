@@ -1,0 +1,42 @@
+{
+  "name": "library",
+  "version": "0.0.0",
+  "description": "apollo library backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node library-backend.js",
+    "dev": "nodemon library-backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaimhall/full-stack-open.git"
+  },
+  "keywords": [
+    "apollo",
+    "graphql"
+  ],
+  "author": "kaihall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaimhall/full-stack-open/issues"
+  },
+  "homepage": "https://github.com/kaimhall/full-stack-open#readme",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.14",
+    "apollo-server": "^3.8.2",
+    "apollo-server-core": "^3.8.2",
+    "apollo-server-express": "^3.8.2",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "graphql-subscriptions": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
+    "subscriptions-transport-ws": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.9.1",
+    "prettier-eslint": "^10.1.0"
+  }
+}
